@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="battleship.css" />
+</head>
+
+<body>
+  <header>
+  </header>
+  <div id="container">
+    <div id="gamearea">
+      <table id="field">
+
+
+      </table>
+    </div>
+
+    <div id="score">
+      <table>
+        <tr>
+          <th id="#heading">Scoreboard</th>
+        </tr>
+        <tr>
+          <td>Guesses so far: </td>
+          <td id="cur_guess"></td>
+        </tr>
+        <tr>
+          <td>Cells Left: </td>
+          <td id="hits"></td>
+        </tr>
+         <tr>
+          <td>Accuracy: </td>
+          <td id="accuracy"></td>
+        </tr>
+         <tr>
+          <td>Ships Left: </td>
+          <td id="shipsleft"></td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="win">
+      <div id="winbox">
+        <h1>Congratulations</h1>
+        <br>You hit all ships after <span id="guesses"></span> guesses!
+        <br>Your accuracy is <span id="accuracyfinal"></span>%.
+        <br>
+        <br><a href="#" id="playagain">Play again</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <script src="battleship.js"></script>
+</body>
+
+</html>
