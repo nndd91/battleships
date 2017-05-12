@@ -168,7 +168,7 @@ class Battleships {
     placeShip(submarine);
 
     console.log(battlefield);
-
+    this.countShips();
   }
 
   countShips() {
@@ -228,7 +228,6 @@ $(document).ready(function() {
   console.log(battleship);
   battleship.create_board();
   battleship.deploy();
-  battleship.countShips();
   updateScore();
 
   function updateScore() {
