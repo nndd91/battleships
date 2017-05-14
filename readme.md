@@ -1,5 +1,5 @@
 **BattleShips in JS**
-S
+
 Tried to recreate the classic battleship game using Javascript and CSS.
 
 The hardest part was thinking of a good algorithm to deploy the different sized ships. 
